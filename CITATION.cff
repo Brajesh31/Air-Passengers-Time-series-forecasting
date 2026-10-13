@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Air Passengers Time-Series Forecasting"
+message: "If you use this software, please cite the repository."
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Brajesh
+    affiliation: "Independent"
+repository-code: "https://github.com/brajesh31/Air-Passengers-Time-series-forecasting"
+abstract: "Notebook-based exploration of airline passenger time-series forecasting."
+keywords:
+  - time series
+  - forecasting
+  - ARIMA
+  - LSTM
+license: MIT
+version: 0.1.0
