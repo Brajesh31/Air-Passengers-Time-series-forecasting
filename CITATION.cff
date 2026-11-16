@@ -6,12 +6,13 @@ authors:
   - family-names: Kumar
     given-names: Brajesh
     affiliation: "Independent"
-repository-code: "https://github.com/brajesh31/Air-Passengers-Time-series-forecasting"
-abstract: "Notebook-based exploration of airline passenger time-series forecasting."
+repository-code: "https://github.com/Brajesh31/Air-Passengers-Time-series-forecasting"
+abstract: "Educational analysis and forecasting examples using historical monthly airline passenger observations."
 keywords:
   - time series
   - forecasting
-  - ARIMA
-  - LSTM
+  - SARIMA
+  - exponential smoothing
+  - Jupyter
 license: MIT
-version: 0.1.0
+version: 1.0.0
