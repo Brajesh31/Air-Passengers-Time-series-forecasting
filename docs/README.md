@@ -1,21 +1,21 @@
 # 📚 Documentation Index
 
-This repository analyses the historical monthly AirPassengers time series using classical forecasting methods.
+This repository analyses historical monthly airline passenger data through classical time-series forecasting.
 
 | Guide | Purpose |
 |---|---|
 | [Architecture](architecture.md) | Notebook and command-line workflow |
-| [Data](data.md) | Source file, schema, frequency, and limitations |
+| [Data](data.md) | Dataset schema, frequency, provenance, limitations |
 | [Installation](installation.md) | Python environment and dependencies |
-| [Development](development.md) | Coding and notebook contribution practices |
-| [Reproducibility](reproducibility.md) | Dataset checks, splits, seeds, and environment capture |
-| [Testing](testing.md) | Automated checks and forecasting validation |
+| [Development](development.md) | Notebook and script contribution practices |
+| [Reproducibility](reproducibility.md) | Dataset, splits, seeds, and environment capture |
+| [Testing](testing.md) | CI checks and forecast validation |
 | [Evaluation](evaluation.md) | MAE, RMSE, MAPE and time-series backtesting |
-| [Troubleshooting](troubleshooting.md) | Common setup and execution issues |
-| [FAQ](faq.md) | Project scope and model questions |
-| [Deployment](deployment.md) | Current non-production status |
-| [API](api.md) | No API is currently provided |
-| [Database](database.md) | Current CSV-based data storage |
+| [Troubleshooting](troubleshooting.md) | Setup and execution issues |
+| [FAQ](faq.md) | Common project questions |
+| [Deployment](deployment.md) | Current local-only status |
+| [API](api.md) | No network API is implemented |
+| [Database](database.md) | CSV-based data storage and generated outputs |
 
 ## Repository policies
 
@@ -27,4 +27,4 @@ This repository analyses the historical monthly AirPassengers time series using 
 - [Changelog](../CHANGELOG.md)
 - [License](../LICENSE)
 
-The checked-in dataset supports local reproducibility, but model validity remains limited by its small historical coverage and the assumptions of the forecasting experiment.
+The data and models are educational. A passing unit test does not constitute forecasting validation for airline operations.
