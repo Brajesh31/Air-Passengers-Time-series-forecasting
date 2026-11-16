@@ -1,0 +1,44 @@
+name: Documentation request
+description: Report unclear, missing, outdated, or incorrect project documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this form for README, notebook explanation, installation, methodology, or contributor-guide issues. Do not include secrets or private datasets."
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation location
+      description: Link the file or section, or describe where the problem appears.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is missing or incorrect?
+      description: Explain what is confusing, outdated, incomplete, or inaccurate.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Describe the correction or additional explanation that would help.
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Documentation category
+      options:
+        - README
+        - Installation and setup
+        - Notebook explanation
+        - Forecasting methodology
+        - Data and provenance
+        - Testing and reproducibility
+        - Contribution and governance
+        - Other
+    validations:
+      required: true
