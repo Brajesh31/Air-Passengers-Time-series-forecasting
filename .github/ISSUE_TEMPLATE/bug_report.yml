@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible problem in the notebook, script, or checks
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private data, credentials, or sensitive files."
+  - type: textarea
+    id: issue
+    attributes:
+      label: Describe the problem
+      description: Explain what failed and where.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the notebook cell or CLI command and sanitized output.
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.11"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Package and operating system details
+    validations:
+      required: true
