@@ -53,7 +53,7 @@ def load_series(path: Path) -> pd.Series:
         raise ValueError("At least 36 monthly observations are required for seasonal modelling.")
     expected = pd.date_range(series.index.min(), series.index.max(), freq="MS")
     # Source data is dated on the 15th. Normalize to month starts for a clean monthly index.
-    series.index = series.index.to_period("M").to_timestamp("MS")
+    series.index = series.index.to_period("M").to_timestamp(how="start")
     if not series.index.equals(expected):
         raise ValueError("The dataset must contain a continuous monthly series without gaps.")
     return series
