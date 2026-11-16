@@ -87,10 +87,18 @@ Air-Passengers-Time-series-forecasting/
 ├── docs/
 │   ├── README.md
 │   ├── architecture.md
+│   ├── notebook-guide.md
+│   ├── methodology.md
+│   ├── models.md
 │   ├── data.md
+│   ├── data-dictionary.md
 │   ├── installation.md
 │   ├── development.md
 │   ├── evaluation.md
+│   ├── experiment-protocol.md
+│   ├── results-interpretation.md
+│   ├── glossary.md
+│   ├── maintenance.md
 │   ├── reproducibility.md
 │   ├── testing.md
 │   ├── troubleshooting.md
