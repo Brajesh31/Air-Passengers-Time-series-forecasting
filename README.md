@@ -270,6 +270,14 @@ These files are generated locally and are excluded from version control by `.git
 |---|---|
 | [Documentation index](docs/README.md) | Entry point to all guides |
 | [Architecture](docs/architecture.md) | Notebook, script, data flow, and project boundaries |
+| [Notebook walkthrough](docs/notebook-guide.md) | Cell sequence, dependencies, execution and output hygiene |
+| [Methodology](docs/methodology.md) | Trend, seasonality, stationarity, differencing and forecasting workflow |
+| [Model reference](docs/models.md) | Implemented models, parameters and non-implemented methods |
+| [Data dictionary](docs/data-dictionary.md) | Field definitions, schema and validation contract |
+| [Experiment protocol](docs/experiment-protocol.md) | Fair model comparison and experiment reporting |
+| [Results interpretation](docs/results-interpretation.md) | Reading metrics, residuals and forecast limitations |
+| [Glossary](docs/glossary.md) | Time-series and forecasting terminology |
+| [Maintenance](docs/maintenance.md) | Repository, dependency and CI maintenance practices |
 | [Dataset](docs/data.md) | Data schema, dates, units, provenance, and limitations |
 | [Installation](docs/installation.md) | Environment setup and dependencies |
 | [Development](docs/development.md) | Project structure and development standards |
