@@ -1,19 +1,27 @@
 # 📜 Changelog
 
-This log records changes to the project. It avoids publishing model scores unless they have been reproduced against a documented data split and environment.
+This file records repository changes that affect users, contributors, documentation, or maintenance. It does not claim that a documentation update independently validates forecasting accuracy.
 
 ## [Unreleased]
 
-### Added
-- A complete documentation index and expanded dataset, architecture, evaluation, installation, development, testing, and reproducibility guides.
-- Runtime and development dependency manifests.
-- A command-line forecasting workflow using seasonal Exponential Smoothing and SARIMA.
-- Repository and forecast metric tests.
-- Notebook syntax validation and GitHub Actions checks.
+### Repository maintenance
+- Added a dedicated documentation-request issue form.
+- Added monthly Dependabot checks for Python dependencies and GitHub Actions.
+- Expanded the README with setup, workflow, dataset, methods, outputs, validation, limitations, and documentation navigation.
+- Clarified that CI checks establish basic project integrity and execution, not operational forecast validity.
+- Clarified that API and database guides describe capabilities that are not implemented in this local project.
 
-### Changed
-- Rebuilt the notebook around continuous monthly dates, stationarity diagnostics, chronological holdout validation, baselines, seasonal models, and residual analysis.
-- Removed the obsolete claim that the current workflow includes LSTM.
+### Existing project contents
+- The repository currently includes a Jupyter notebook, a historical monthly CSV, a local forecasting script, a static notebook validator, automated tests, and a CI workflow.
+- The notebook and forecasting implementation were already present before this maintenance entry. This changelog does not describe their creation as part of the current documentation-only pass.
 
-### Maintenance
-- Removed hourly README timestamp automation that generated unnecessary commits.
+## Historical notes
+
+Earlier repository maintenance introduced or revised the project documentation, dependency manifests, command-line forecasting reference, tests, and CI checks. Consult the repository commit history for exact file-level chronology.
+
+## Changelog policy
+
+- Use dated or clearly scoped entries for meaningful changes.
+- Separate features, fixes, documentation, and maintenance where useful.
+- Do not publish unverified accuracy claims or benchmark rankings.
+- Do not imply that historical forecasts are suitable for present-day operational planning.
